@@ -6,11 +6,11 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import SaitamaRobot.modules.fun_strings as fun_strings
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.chat_status import (is_user_admin)
-from SaitamaRobot.modules.helper_funcs.extraction import extract_user
+import DragonX.modules.fun_strings as fun_strings
+from DragonX import dispatcher
+from DragonX.modules.disable import DisableAbleCommandHandler
+from DragonX.modules.helper_funcs.chat_status import (is_user_admin)
+from DragonX.modules.helper_funcs.extraction import extract_user
 
 GIF_ID = 'CgACAgUAAx0EVmwfqQACElhfo3yZv1njCC11INcQSAi4UlN8vwACqwADg_8wVeGSv41OYU6zHgQ'
 

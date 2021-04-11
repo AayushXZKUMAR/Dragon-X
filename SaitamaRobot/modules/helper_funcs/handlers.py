@@ -1,6 +1,6 @@
-import SaitamaRobot.modules.sql.blacklistusers_sql as sql
-from SaitamaRobot import ALLOW_EXCL
-from SaitamaRobot import (DEV_USERS, SUDO_USERS, SUPPORT_USERS, TIGER_USERS,
+import DragonX.modules.sql.blacklistusers_sql as sql
+from DragonX import ALLOW_EXCL
+from DragonX import (DEV_USERS, SUDO_USERS, SUPPORT_USERS, TIGER_USERS,
                           WHITELIST_USERS)
 
 from telegram import MessageEntity, Update

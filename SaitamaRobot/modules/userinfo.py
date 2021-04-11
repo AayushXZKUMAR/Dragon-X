@@ -13,18 +13,18 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from SaitamaRobot import (DEV_USERS, OWNER_ID, SUDO_USERS, SUPPORT_USERS,
+from DragonX import (DEV_USERS, OWNER_ID, SUDO_USERS, SUPPORT_USERS,
                           TIGER_USERS, WHITELIST_USERS, INFOPIC, dispatcher, sw)
-from SaitamaRobot.__main__ import STATS, TOKEN, USER_INFO
-import SaitamaRobot.modules.sql.userinfo_sql as sql
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.sql.global_bans_sql import is_user_gbanned
-from SaitamaRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from SaitamaRobot.modules.sql.users_sql import get_user_num_chats
-from SaitamaRobot.modules.sql.feds_sql import get_user_fbanlist
-from SaitamaRobot.modules.helper_funcs.chat_status import sudo_plus
-from SaitamaRobot.modules.helper_funcs.extraction import extract_user
-from SaitamaRobot import telethn as SaitamaTelethonClient, TIGER_USERS, SUDO_USERS, SUPPORT_USERS
+from DragonX.__main__ import STATS, TOKEN, USER_INFO
+import DragonX.modules.sql.userinfo_sql as sql
+from DragonX.modules.disable import DisableAbleCommandHandler
+from DragonX.modules.sql.global_bans_sql import is_user_gbanned
+from DragonX.modules.sql.afk_sql import is_afk, check_afk_status
+from DragonX.modules.sql.users_sql import get_user_num_chats
+from DragonX.modules.sql.feds_sql import get_user_fbanlist
+from DragonX.modules.helper_funcs.chat_status import sudo_plus
+from DragonX.modules.helper_funcs.extraction import extract_user
+from DragonX import telethn as SaitamaTelethonClient, TIGER_USERS, SUDO_USERS, SUPPORT_USERS
 
 
 def no_by_per(totalhp, percentage):
